@@ -2,6 +2,7 @@ const fizzBuzzContainer = document.querySelector(".fizzbuzz-container");
 
 for (let i = 1; i <= 100; i++) {
   let singleCell = document.createElement("div");
+  
 
   if (i % 3 === 0 && i % 5 === 0) {   //fizz buzz
     singleCell.classList.add("single-cell", "mandy-red");
@@ -21,4 +22,12 @@ for (let i = 1; i <= 100; i++) {
   }
 
   fizzBuzzContainer.append(singleCell);
+
+
+//con la partecipazione dei miei padri: Gabriele Pazi, Pietro Leone, Valerio Collura
+  if (i === 18) {
+    singleCell.addEventListener('mouseover', function colluraGaming() {
+      singleCell.innerHTML= 'Mio Padre Valerio';
+    })
+  }
 }
