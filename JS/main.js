@@ -3,9 +3,9 @@ const fizzBuzzContainer = document.querySelector(".fizzbuzz-container");
 for (let i = 0; i < 100; i++) {
   let singleCell = document.createElement("div");
 
-  if (i % 3 === 0 && i % 5 === 0) {
+  if (i % 3 === 0 && i % 5 === 0) {   //fizz buzz
     singleCell.classList.add("mandy-red");
-  } else if (i % 3 === 0) {
+  } else if (i % 3 === 0) {   //fizz
     singleCell.classList.add("caribbean-green");
   } else if (i % 5 === 0) {   //buzz
     singleCell.classList.add("light-mustard-yellow");
