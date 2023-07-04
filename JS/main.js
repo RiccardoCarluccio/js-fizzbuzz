@@ -6,7 +6,6 @@ for (let i = 1; i <= 100; i++) {
 
   if (i % 3 === 0 && i % 5 === 0) {   //fizz buzz
     singleCell.classList.add("single-cell", "mandy-red");
-    //singleCell.innerHTML = 'FIZZ BUZZ';
     let dragonCell = document.createElement("i");
     dragonCell.classList.add("fa-solid", "fa-dragon", "fs-3");
     singleCell.append(dragonCell);
@@ -26,12 +25,16 @@ for (let i = 1; i <= 100; i++) {
 
 //con la partecipazione dei miei padri: Gabriele Pazi, Pietro Leone, Valerio Collura
 //e la supervione di mio padre di Mazzara
+  const prideStillGoing = document.getElementById('pride-still-going');
+
   if (i === 18) {
     singleCell.addEventListener('mouseover', function colluraGaming() {
       singleCell.innerHTML= 'Mio Padre Valerio';
+      prideStillGoing.classList.replace('elephant-blue', 'ymca');
     })
     singleCell.addEventListener('mouseleave', function colluraGaming() {
       singleCell.innerHTML= 'FIZZ';
+      prideStillGoing.classList.replace('ymca', 'elephant-blue');
     })
   }
 }
