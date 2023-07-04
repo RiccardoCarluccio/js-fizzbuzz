@@ -1,8 +1,10 @@
 /* colluraGaming */
 .fizzbuzz-container div:nth-of-type(18):hover {
-  background-color: black;
-  color: bisque;
+  background-image: url('https://avatars.githubusercontent.com/u/132392103?v=4');
+  background-size: cover;
+  color: #0080ff;
   text-align: center;
+  scale: 2;
   }  
 
 /* DRAGON COLOR */

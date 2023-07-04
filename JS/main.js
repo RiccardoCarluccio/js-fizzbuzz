@@ -25,12 +25,13 @@ for (let i = 1; i <= 100; i++) {
 
 
 //con la partecipazione dei miei padri: Gabriele Pazi, Pietro Leone, Valerio Collura
+//e la supervione di mio padre di Mazzara
   if (i === 18) {
     singleCell.addEventListener('mouseover', function colluraGaming() {
       singleCell.innerHTML= 'Mio Padre Valerio';
     })
     singleCell.addEventListener('mouseleave', function colluraGaming() {
-      singleCell.innerHTML= 'Fizz';
+      singleCell.innerHTML= 'FIZZ';
     })
   }
 }
