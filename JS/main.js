@@ -5,7 +5,10 @@ for (let i = 1; i <= 100; i++) {
 
   if (i % 3 === 0 && i % 5 === 0) {   //fizz buzz
     singleCell.classList.add("single-cell", "mandy-red");
-    singleCell.innerHTML = 'FIZZ BUZZ';
+    //singleCell.innerHTML = 'FIZZ BUZZ';
+    let dragonCell = document.createElement("i");
+    dragonCell.classList.add("fa-solid", "fa-dragon", "fs-3");
+    singleCell.append(dragonCell);
   } else if (i % 3 === 0) {   //fizz
     singleCell.classList.add("single-cell", "caribbean-green");
     singleCell.innerHTML = 'FIZZ';
