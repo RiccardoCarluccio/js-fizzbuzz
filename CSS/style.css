@@ -1,3 +1,12 @@
+.single-cell {
+  width: calc(100% / 8);
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CELLS COLORS */
 .nice-blue {
   background-color: rgba(19,137,178,255);
 }
@@ -14,6 +23,8 @@
   background-color: rgba(240,70,111,255);
 }
 
+
+/* BACKGROUND COLOR */
 .elephant-blue {  /* page background */
   background-color: rgba(8,59,76,255);
 }
