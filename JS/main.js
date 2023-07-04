@@ -10,13 +10,13 @@ for (let i = 1; i <= 100; i++) {
     dragonCell.classList.add("fa-solid", "fa-dragon", "fs-3");
     singleCell.append(dragonCell);
   } else if (i % 3 === 0) {   //fizz
-    singleCell.classList.add("single-cell", "caribbean-green");
+    singleCell.classList.add("single-cell", "caribbean-green", "fs-5", "fw-bold");
     singleCell.innerHTML = 'FIZZ';
   } else if (i % 5 === 0) {   //buzz
-    singleCell.classList.add("single-cell", "light-mustard-yellow");
+    singleCell.classList.add("single-cell", "light-mustard-yellow", "fs-5", "fw-bold");
     singleCell.innerHTML = 'BUZZ';
   } else {  //number
-    singleCell.classList.add("single-cell", "nice-blue")
+    singleCell.classList.add("single-cell", "nice-blue", "fs-5", "fw-bold")
     singleCell.innerHTML = i.toString();
   }
 

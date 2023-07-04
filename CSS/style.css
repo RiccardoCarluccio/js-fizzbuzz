@@ -6,6 +6,11 @@
   align-items: center;
 }
 
+/* DRAGON COLOR */
+i {
+  color: rgb(212,175,55);
+}
+
 /* CELLS COLORS */
 .nice-blue {
   background-color: rgba(19,137,178,255);
