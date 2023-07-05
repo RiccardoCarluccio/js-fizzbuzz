@@ -31,10 +31,12 @@ for (let i = 1; i <= 100; i++) {
     singleCell.addEventListener('mouseover', function colluraGaming() {
       singleCell.innerHTML= 'Mio Padre Valerio';
       prideStillGoing.classList.replace('elephant-blue', 'ymca');
+      singleCell.classList.add("align-items-start")
     })
     singleCell.addEventListener('mouseleave', function colluraGaming() {
       singleCell.innerHTML= 'FIZZ';
       prideStillGoing.classList.replace('ymca', 'elephant-blue');
+      singleCell.classList.remove("align-items-start");
     })
   }
 }
