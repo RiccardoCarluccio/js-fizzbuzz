@@ -10,3 +10,14 @@
   text-align: center;
 }
 
+/* colluraGaming */
+.fizzbuzz-container div:nth-of-type(18):hover {
+  background-image: url('https://avatars.githubusercontent.com/u/132392103?v=4');
+  background-size: cover;
+  color: pink;
+  text-align: center;
+  scale: 4;
+  transition: 4s;
+  text-shadow: 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
+}
+
